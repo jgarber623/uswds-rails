@@ -1,0 +1,16 @@
+AllCops:
+  Exclude:
+    - 'spec/**/*'
+
+FileName:
+  Exclude:
+    - 'lib/uswds-rails.rb'
+
+Metrics/LineLength:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
