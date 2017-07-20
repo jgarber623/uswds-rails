@@ -1,6 +1,6 @@
 # uswds-rails
 
-A Ruby gem for integrating the U.S. Web Design Standards into a Ruby on Rails application.
+A Ruby gem for integrating the [U.S. Web Design Standards](https://github.com/18F/web-design-standards) into a [Ruby on Rails](http://rubyonrails.org) application.
 
 [![Gem Version](https://img.shields.io/gem/v/uswds-rails.svg?label=gem%20version)](https://rubygems.org/gems/uswds-rails)
 [![Downloads](https://img.shields.io/gem/dt/uswds-rails.svg)](https://rubygems.org/gems/uswds-rails)
@@ -16,7 +16,7 @@ uswds-rails _might_ work with other versions of Ruby, but it's developed in 2.4.
 
 ## Installation
 
-Add uswds-rails to your [Ruby on Rails](http://rubyonrails.org) project's Gemfile:
+Add uswds-rails to your Ruby on Rails project's Gemfile:
 
 ```rb
 ruby '2.4.1'
