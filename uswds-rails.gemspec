@@ -6,7 +6,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'uswds/rails/version'
 
 Gem::Specification.new do |spec|
-  spec.required_ruby_version = '>= 2.4.1'
+  spec.required_ruby_version = '>= 2.2.7'
 
   spec.name          = 'uswds-rails'
   spec.version       = Uswds::Rails::VERSION
