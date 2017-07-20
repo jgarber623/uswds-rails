@@ -29,4 +29,8 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rubocop', '~> 0.49.1'
   spec.add_development_dependency 'sass-rails', '~> 5.0', '>= 5.0.6'
   spec.add_development_dependency 'simplecov-console', '~> 0.4.2'
+
+  spec.add_runtime_dependency 'bourbon', '~> 4.3', '>= 4.3.4'
+  spec.add_runtime_dependency 'neat', '~> 1.8'
+  spec.add_runtime_dependency 'normalize-scss', '~> 7.0'
 end
