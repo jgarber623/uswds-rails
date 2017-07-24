@@ -23,7 +23,7 @@ ruby '2.4.1'
 
 source 'https://rubygems.org' do
   gem 'rails', '~> 5.1'
-  gem 'uswds-rails', '~> 0.1.0'
+  gem 'uswds-rails', '~> 1.3'
 end
 ```
 
