@@ -1,12 +1,16 @@
-/*! uswds 1.2.1 */
+/*! uswds 1.3.0 */
+
+// Relative font and image file paths
+$font-path:  'uswds';
+$image-path: 'uswds';
+
+// Set $asset-pipeline to true if you're using the Rails Asset Pipeline
+$asset-pipeline: true;
 
 // Vendor -------------- //
 @import 'bourbon';
 @import 'neat';
-@import 'normalize';
-@include normalize;
-
-$output-bourbon-deprecation-warnings: false;
+@import 'normalize-css';
 
 // Core -------------- //
 @import 'uswds/core/variables';
@@ -20,7 +24,7 @@ $output-bourbon-deprecation-warnings: false;
 @import 'uswds/elements/buttons';
 @import 'uswds/elements/embed';
 @import 'uswds/elements/figure';
-@import 'uswds/elements/inputs';
+// @import 'uswds/elements/inputs';
 @import 'uswds/elements/labels';
 @import 'uswds/elements/list';
 @import 'uswds/elements/table';
