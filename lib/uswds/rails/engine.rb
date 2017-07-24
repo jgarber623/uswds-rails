@@ -1,6 +1,6 @@
 require 'bourbon'
 require 'neat'
-require 'normalize-scss'
+require 'rails-assets-normalize-css'
 
 module Uswds
   module Rails
