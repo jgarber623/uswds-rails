@@ -10,7 +10,7 @@ module Uswds
           app.config.assets.paths << root.join('vendor', path).to_s
         end
 
-        app.config.assets.precompile += [/uswds\/.+\.(eot|png|svg|ttf|woff|woff2)$/]
+        app.config.assets.precompile += [%r{uswds/.+\.(eot|png|svg|ttf|woff|woff2)$}]
       end
     end
   end
