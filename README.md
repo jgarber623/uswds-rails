@@ -21,10 +21,11 @@ Add uswds-rails to your Ruby on Rails project's Gemfile:
 ```rb
 ruby '2.4.1'
 
-source 'https://rubygems.org' do
-  gem 'rails', '~> 5.1'
-  gem 'uswds-rails', '~> 1.3'
-end
+source 'https://rubygems.org'
+source 'https://rails-assets.org'
+
+gem 'rails', '~> 5.1'
+gem 'uswds-rails', '~> 1.3'
 ```
 
 Run `bundle install` to install uswds-rails and its dependencies.
