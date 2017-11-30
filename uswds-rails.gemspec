@@ -21,13 +21,13 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.require_paths = ['lib']
 
-  spec.add_development_dependency 'bundler', '~> 1.15', '>= 1.15.2'
-  spec.add_development_dependency 'rails', '~> 5.1', '>= 5.1.2'
+  spec.add_development_dependency 'bundler', '~> 1.16'
+  spec.add_development_dependency 'rails', '~> 5.1', '>= 5.1.4'
   spec.add_development_dependency 'rails-controller-testing', '~> 1.0', '>= 1.0.2'
-  spec.add_development_dependency 'rake', '~> 12.0'
-  spec.add_development_dependency 'rspec-rails', '~> 3.6'
-  spec.add_development_dependency 'rubocop', '~> 0.49.1'
-  spec.add_development_dependency 'sass-rails', '~> 5.0', '>= 5.0.6'
+  spec.add_development_dependency 'rake', '~> 12.3'
+  spec.add_development_dependency 'rspec-rails', '~> 3.7', '>= 3.7.2'
+  spec.add_development_dependency 'rubocop', '~> 0.51.0'
+  spec.add_development_dependency 'sass-rails', '~> 5.0', '>= 5.0.7'
   spec.add_development_dependency 'simplecov-console', '~> 0.4.2'
 
   spec.add_runtime_dependency 'bourbon', '4.2.7'
