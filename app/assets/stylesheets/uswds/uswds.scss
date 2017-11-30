@@ -1,4 +1,4 @@
-/*! uswds 1.4.1 */
+/*! uswds 1.4.2 */
 
 // Relative font and image file paths
 $font-path:  'uswds';
@@ -15,9 +15,9 @@ $asset-pipeline: true;
 // Core -------------- //
 @import 'uswds/core/variables';
 @import 'uswds/core/fonts';
-@import 'uswds/core/base';
 @import 'uswds/core/grid';
 @import 'uswds/core/utilities';
+@import 'uswds/core/base';
 
 // Elements -------------- //
 // Styles basic HTML elements
