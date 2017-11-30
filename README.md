@@ -10,22 +10,22 @@ A Ruby gem for integrating the [U.S. Web Design Standards](https://github.com/18
 
 ## Getting Started
 
-Before installing and using uswds-rails, you'll want to have Ruby 2.2.7 (or newer) installed on your computer. There are plenty of ways to go about this, but my preference is [rbenv](https://github.com/sstephenson/rbenv). If you're developing on a Mac and using [Homebrew](http://brew.sh/), installing rbenv is [super easy](https://github.com/sstephenson/rbenv#homebrew-on-mac-os-x).
+Before installing and using uswds-rails, you'll want to have Ruby 2.2.8 (or newer) installed on your computer. There are plenty of ways to go about this, but my preference is [rbenv](https://github.com/sstephenson/rbenv). If you're developing on a Mac and using [Homebrew](http://brew.sh/), installing rbenv is [super easy](https://github.com/sstephenson/rbenv#homebrew-on-mac-os-x).
 
-uswds-rails _might_ work with other versions of Ruby, but it's developed in 2.4.1 and automatically tested against 2.2.7 and 2.3.4 by [Travis CI](https://travis-ci.org/jgarber623/uswds-rails).
+uswds-rails _might_ work with other versions of Ruby, but it's developed in 2.4.2 and automatically tested against 2.2.8 and 2.3.5 by [Travis CI](https://travis-ci.org/jgarber623/uswds-rails).
 
 ## Installation
 
 Add uswds-rails to your Ruby on Rails project's Gemfile:
 
 ```rb
-ruby '2.4.1'
+ruby '2.4.2'
 
 source 'https://rubygems.org'
 source 'https://rails-assets.org'
 
 gem 'rails', '~> 5.1'
-gem 'uswds-rails', '~> 1.3'
+gem 'uswds-rails', '~> 1.4'
 ```
 
 Run `bundle install` to install uswds-rails and its dependencies.
