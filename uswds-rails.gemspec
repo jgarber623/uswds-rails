@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'uswds/rails/version'
 
 Gem::Specification.new do |spec|
-  spec.required_ruby_version = '>= 2.2.7'
+  spec.required_ruby_version = ['>= 2.2.7', '< 2.5']
 
   spec.name          = 'uswds-rails'
   spec.version       = Uswds::Rails::VERSION
@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rails-controller-testing', '~> 1.0', '>= 1.0.2'
   spec.add_development_dependency 'rake', '~> 12.3'
   spec.add_development_dependency 'rspec-rails', '~> 3.7', '>= 3.7.2'
-  spec.add_development_dependency 'rubocop', '~> 0.51.0'
+  spec.add_development_dependency 'rubocop', '~> 0.52.0'
   spec.add_development_dependency 'sass-rails', '~> 5.0', '>= 5.0.7'
   spec.add_development_dependency 'simplecov-console', '~> 0.4.2'
 
