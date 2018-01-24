@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://github.com/jgarber623/uswds-rails'
   spec.license       = 'MIT'
 
-  spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
+  spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(bin|spec)/}) }
   spec.require_paths = ['lib']
 
   spec.add_development_dependency 'bundler', '~> 1.16'
