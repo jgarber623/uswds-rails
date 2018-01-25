@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Jason Garber']
   spec.email         = ['jason@sixtwothree.org']
 
-  spec.summary       = 'Integrate the U.S. Web Design Standards into a Ruby on Rails application.'
+  spec.summary       = 'Integrate the U.S. Web Design System into a Ruby on Rails application.'
   spec.description   = spec.summary
   spec.homepage      = 'https://github.com/jgarber623/uswds-rails'
   spec.license       = 'MIT'

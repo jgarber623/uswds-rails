@@ -1,6 +1,6 @@
 # uswds-rails
 
-A Ruby gem for integrating the [U.S. Web Design Standards](https://github.com/18F/web-design-standards) into a [Ruby on Rails](http://rubyonrails.org) application.
+A Ruby gem for integrating the [U.S. Web Design System](https://github.com/uswds/uswds) into a [Ruby on Rails](http://rubyonrails.org) application.
 
 [![Gem](https://img.shields.io/gem/v/uswds-rails.svg?style=for-the-badge)](https://rubygems.org/gems/uswds-rails)
 [![Downloads](https://img.shields.io/gem/dt/uswds-rails.svg?style=for-the-badge)](https://rubygems.org/gems/uswds-rails)
@@ -32,7 +32,7 @@ Run `bundle install` to install uswds-rails and its dependencies.
 
 ## Usage
 
-uswds-rails makes available to your Rails application the fonts, images, JavaScript files, and stylesheets from the U.S. Web Design Standards. Including the files varies depending on type.
+uswds-rails makes available to your Rails application the fonts, images, JavaScript files, and stylesheets from the U.S. Web Design System. Including the files varies depending on type.
 
 The most basic integration looks like:
 
@@ -46,7 +46,7 @@ The most basic integration looks like:
 //= require "uswds/uswds";
 ```
 
-Adding those lines to your project's `application.scss` and `application.js` will include _everything_ from the U.S. Web Design Standards (fonts, JavaScript, and stylesheets).
+Adding those lines to your project's `application.scss` and `application.js` will include _everything_ from the U.S. Web Design System (fonts, JavaScript, and stylesheets).
 
 Don't want to include the entire stylesheet in your project? Not to worry! You may include individual SCSS files by using uswds-rails' [`app/assets/stylesheets/uswds/uswds.scss`](https://github.com/jgarber623/uswds-rails/blob/master/app/assets/stylesheets/uswds/uswds.scss) as a guide.
 
@@ -56,7 +56,7 @@ For details on setting up your development environment and contributing to this 
 
 ## Acknowledgments
 
-This project woudn't exist without the [18F](https://github.com/18F) team's hard work on the [U.S. Web Design Standards](https://github.com/18F/web-design-standards).
+This project woudn't exist without the [18F](https://github.com/18F) team's hard work on the [U.S. Web Design System](https://github.com/uswds/uswds).
 
 uswds-rails is written and maintained by [Jason Garber](https://github.com/jgarber623).
 

@@ -1,6 +1,6 @@
 # License Information
 
-uswds-rails includes portions of the [U.S. Web Design Standards](https://github.com/18F/web-design-standards) released under a [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/). Portions of the U.S. Web Design Standards are not in the public domain. Additional licensing information can be found in the project's [LICENSE.md](https://github.com/18F/web-design-standards/blob/develop/LICENSE.md).
+uswds-rails includes portions of the [U.S. Web Design System](https://github.com/uswds/uswds) released under a [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/). Portions of the U.S. Web Design System are not in the public domain. Additional licensing information can be found in the project's [LICENSE.md](https://github.com/uswds/uswds/blob/develop/LICENSE.md).
 
 The remainder of uswds-rails is licensed under the [MIT License](https://opensource.org/licenses/MIT), the full text of which is included below.
 
