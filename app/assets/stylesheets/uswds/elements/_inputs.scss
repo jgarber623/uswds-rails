@@ -107,8 +107,6 @@ textarea {
 }
 
 select {
-  -moz-appearance: none;
-  -webkit-appearance: none;
   appearance: none;
   background-color: $color-white;
   background-image: asset-url('#{$image-path}/arrow-both.png');
@@ -249,7 +247,7 @@ legend {
 // Range inputs
 
 [type=range] {
-  -webkit-appearance: none;
+  appearance: none;
   border: none;
   padding-left: 0;
   width: 100%;
@@ -320,6 +318,12 @@ legend {
   border-radius: 2rem;
 }
 
+// File input type
+[type='file'] {
+  border: none;
+  padding-left: 0;
+}
+
 // Memorable dates
 
 .usa-date-of-birth {
@@ -329,7 +333,6 @@ legend {
 
   [type=number]::-webkit-inner-spin-button,
   [type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
     appearance: none;
     margin: 0;
   }
