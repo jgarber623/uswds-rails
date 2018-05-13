@@ -1,4 +1,4 @@
-/*! uswds 1.6.0 */
+/*! uswds 1.6.1 */
 
 // Relative font and image file paths
 $font-path:  'uswds';
@@ -8,6 +8,7 @@ $image-path: 'uswds';
 $asset-pipeline: true;
 
 // Vendor -------------- //
+@import 'uswds/core/variables-vendor';
 @import 'bourbon';
 @import 'neat';
 @import 'normalize-css';
