@@ -5,6 +5,7 @@ A Ruby gem for integrating the [U.S. Web Design System](https://github.com/uswds
 [![Gem](https://img.shields.io/gem/v/uswds-rails.svg?style=for-the-badge)](https://rubygems.org/gems/uswds-rails)
 [![Downloads](https://img.shields.io/gem/dt/uswds-rails.svg?style=for-the-badge)](https://rubygems.org/gems/uswds-rails)
 [![Build](https://img.shields.io/travis/jgarber623/uswds-rails/master.svg?style=for-the-badge)](https://travis-ci.org/jgarber623/uswds-rails)
+[![Dependencies](https://img.shields.io/depfu/jgarber623/uswds-rails.svg?style=for-the-badge)](https://depfu.com/github/jgarber623/uswds-rails)
 [![Maintainability](https://img.shields.io/codeclimate/maintainability/jgarber623/uswds-rails.svg?style=for-the-badge)](https://codeclimate.com/github/jgarber623/uswds-rails)
 [![Coverage](https://img.shields.io/codeclimate/c/jgarber623/uswds-rails.svg?style=for-the-badge)](https://codeclimate.com/github/jgarber623/uswds-rails/code)
 
