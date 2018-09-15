@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rails-controller-testing', '~> 1.0', '>= 1.0.2'
   spec.add_development_dependency 'rake', '~> 12.3', '>= 12.3.1'
   spec.add_development_dependency 'rspec-rails', '~> 3.8'
-  spec.add_development_dependency 'rubocop', '~> 0.58.2'
+  spec.add_development_dependency 'rubocop', '~> 0.59.1'
   spec.add_development_dependency 'sass-rails', '~> 5.0', '>= 5.0.7'
   spec.add_development_dependency 'simplecov-console', '~> 0.4.2'
 
