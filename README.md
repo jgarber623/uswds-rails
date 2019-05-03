@@ -13,7 +13,7 @@ A Ruby gem for integrating the [U.S. Web Design System](https://github.com/uswds
 
 Before installing and using uswds-rails, you'll want to have Ruby 2.2.9 (or newer) installed on your computer. There are plenty of ways to go about this, but my preference is [rbenv](https://github.com/sstephenson/rbenv). If you're developing on a Mac and using [Homebrew](http://brew.sh), installing rbenv is [super easy](https://github.com/sstephenson/rbenv#homebrew-on-mac-os-x).
 
-uswds-rails _might_ work with other versions of Ruby, but it's developed in 2.5.1 and automatically tested against 2.2.9, 2.3.7, 2.4.4, and 2.5.1 by [Travis CI](https://travis-ci.org/jgarber623/uswds-rails).
+uswds-rails _might_ work with other versions of Ruby, but it's developed in 2.5.1 and automatically tested against 2.2.9, 2.3.8, 2.4.6, and 2.5.1 by [Travis CI](https://travis-ci.org/jgarber623/uswds-rails).
 
 ## Installation
 
