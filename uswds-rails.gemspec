@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Jason Garber']
   spec.email         = ['jason@sixtwothree.org']
 
-  spec.summary       = 'Integrate the U.S. Web Design System into a Ruby on Rails application.'
+  spec.summary       = 'Deprecated from 2019-05-03. Integrate the U.S. Web Design System into a Ruby on Rails application.'
   spec.description   = spec.summary
   spec.homepage      = 'https://github.com/jgarber623/uswds-rails'
   spec.license       = 'MIT'
@@ -19,7 +19,14 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(bin|spec)/}) }
   spec.require_paths = ['lib']
 
-  spec.add_development_dependency 'bundler', '~> 1.16', '>= 1.16.3'
+  spec.post_install_message = <<NOTICE
+  +----------------------------------------------+
+  |                                              |
+  |  uswds-rails is deprecated from 2019-05-03.  |
+  |                                              |
+  +----------------------------------------------+
+NOTICE
+
   spec.add_development_dependency 'rails', '~> 5.2'
   spec.add_development_dependency 'rails-controller-testing', '~> 1.0', '>= 1.0.2'
   spec.add_development_dependency 'rake', '~> 12.3', '>= 12.3.1'

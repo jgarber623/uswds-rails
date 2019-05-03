@@ -1,5 +1,9 @@
 # uswds-rails
 
+⚠️ **Deprecation Notice (2019-05-03)** ⚠️ This gem is deprecated and will no longer receive updates. Users are encouraged to use the latest version of [USWDS](https://github.com/uswds/uswds) and [rails/webpacker](https://www.github.com/rails/webpacker).
+
+---
+
 A Ruby gem for integrating the [U.S. Web Design System](https://github.com/uswds/uswds) into a [Ruby on Rails](http://rubyonrails.org) application.
 
 [![Gem](https://img.shields.io/gem/v/uswds-rails.svg?style=for-the-badge)](https://rubygems.org/gems/uswds-rails)
